@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Movie from './components/Movie'
+import Movies from './components/Movies';
 
 
-ReactDOM.render(<Movie />, document.getElementById('root'));
+ReactDOM.render(<Movies />, document.getElementById('root'));
