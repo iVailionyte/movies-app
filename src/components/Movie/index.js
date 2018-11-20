@@ -1,12 +1,23 @@
 import React from 'react';
 
-const Movie = () => (
+const Movie = (props) => (
   <div>
-    <h1>Movie Title</h1>
-    <div>Movie Description</div>
+    {props.id}
+    <h1>
+      {props.title}
+    </h1>
+    <p>
+      {props.description}
+    </p>
   </div>
+);
 
-)
+// const Movie = () => (
+//   <div>
+//     <h1>Movie Title</h1>
+//     <div>Movie Description</div>
+//   </div>
+// )
 
 // const Main = () => {
 //     return (
