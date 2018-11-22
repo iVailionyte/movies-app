@@ -1,7 +1,5 @@
 import React from 'react';
-import Movies from '../Movies';
-import Header from '../Header';
-import Footer from '../Footer';
+import Movies from '../../components/Movies';
 
 const moviesData = [
   {
@@ -14,12 +12,10 @@ const moviesData = [
   }
 ];
 
-const App = () => (
+const MoviesPage = () => (
   <div>
-    <Header><h1>Header</h1></Header>
     <Movies movies={moviesData} />
-    <Footer>Footer</Footer>
   </div>
 )
 
-export default App;
+export default MoviesPage;
