@@ -1,7 +1,8 @@
 import React from 'react';
+import './style.css';
 
 const Header = (props) => (
-  <header>
+  <header className="header">
     {props.children}
   </header>
 )
