@@ -1,5 +1,6 @@
 import React from 'react';
 import Movies from '../Movies';
+import Header from '../Header';
 
 const moviesData = [
   {
@@ -14,6 +15,7 @@ const moviesData = [
 
 const App = () => (
   <div>
+    <Header><h1>Header</h1></Header>
     <Movies movies={moviesData} />
   </div>
 )

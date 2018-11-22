@@ -3,9 +3,9 @@ import React from 'react';
 const Movie = (props) => (
   <div>
     {props.id}
-    <h1>
+    <h2>
       {props.title}
-    </h1>
+    </h2>
     <p>
       {props.description}
     </p>
