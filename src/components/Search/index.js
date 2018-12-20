@@ -6,6 +6,9 @@ class Search extends Component {
 
     this.submitHandler = this.submitHandler.bind(this);
     this.inputHandler = this.inputHandler.bind(this);
+    this.state = {
+      value: '',
+    }
   }
 
   inputHandler(event) {
@@ -20,7 +23,7 @@ class Search extends Component {
     return (
       <form onSubmit={this.submitHandler}>
         <div>
-          <input type="search" value={this.state.value} onInput={this.inputHandler} />
+          <input type="search" defaultValue={this.state.value} onInput={this.inputHandler} />
         </div>
       </form>
     );
